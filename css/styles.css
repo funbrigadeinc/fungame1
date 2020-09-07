@@ -1,0 +1,41 @@
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+
+td{
+  padding: 2px;
+}
+
+img{
+  width: 130px;
+}
+
+.main-display{
+  height: 45rem;
+}
+
+.cust-iframe{
+  height: 100%;
+  width: 100%;
+  border-style: none;
+  padding-left: 10px;
+}
+
+.cust-textarea{
+  height: 5rem;
+  width: 40rem;
+}
+
+.table-childhood-pics{
+  color: blue;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.table-associate-pics{
+  color: green;
+  font-weight: bolder;
+  font-size: 25px;
+}

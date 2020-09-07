@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge-3</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script type="text/javascript" src="javascript/game.js"></script>
+  </head>
+  <body onload="startGame()">
+    <h1>Challenge 3</h1>
+    <p>Get the Third Part of key, by solving the below image puzzle.</p>
+    <h2>Description</h2>
+    <p>
+      Order the pieces as shown in the image and the final picture will reveal the hidden message.
+    </p>
+    <button onmousedown="moveup()" onmouseup="stopMove()" ontouchstart="moveup()">UP</button>
+    <button onmousedown="movedown()" onmouseup="stopMove()" ontouchstart="movedown()">DOWN</button>
+    <button onmousedown="moveleft()" onmouseup="stopMove()" ontouchstart="moveleft()">LEFT</button>
+    <button onmousedown="moveright()" onmouseup="stopMove()" ontouchstart="moveright()">RIGHT</button>
+    <br>
+    <!-- <textarea name="name" class="cust-textarea">Text Area</textarea> -->
+  </body>
+</html>
