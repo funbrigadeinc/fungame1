@@ -2,17 +2,17 @@
 function startGame() {
     myGameArea.start();
 
-    piece11 = new component(100, 100, "images/row-1-col-1.PNG", 10, 10, "image");
-    piece12 = new component(100, 100, "images/row-1-col-2.PNG", 110, 10, "image");
-    piece13 = new component(100, 100, "images/row-1-col-3.PNG", 210, 10, "image");
+    piece11 = new component(100, 100, "images/row-1-col-1.png", 10, 10, "image");
+    piece12 = new component(100, 100, "images/row-1-col-2.png", 110, 10, "image");
+    piece13 = new component(100, 100, "images/row-1-col-3.png", 210, 10, "image");
 
-    piece21 = new component(100, 100, "images/row-2-col-1.PNG", 10, 110, "image");
-    piece22 = new component(100, 100, "images/row-2-col-2.PNG", 110, 110, "image");
-    piece23 = new component(100, 100, "images/row-2-col-3.PNG", 210, 110, "image");
+    piece21 = new component(100, 100, "images/row-2-col-1.png", 10, 110, "image");
+    piece22 = new component(100, 100, "images/row-2-col-2.png", 110, 110, "image");
+    piece23 = new component(100, 100, "images/row-2-col-3.png", 210, 110, "image");
 
-    piece31 = new component(100, 100, "images/row-3-col-1.PNG", 10, 210, "image");
-    piece32 = new component(100, 100, "images/row-3-col-2.PNG", 110, 210, "image");
-    piece33 = new component(100, 100, "images/row-3-col-3.PNG", 210, 210, "image");
+    piece31 = new component(100, 100, "images/row-3-col-1.png", 10, 210, "image");
+    piece32 = new component(100, 100, "images/row-3-col-2.png", 110, 210, "image");
+    piece33 = new component(100, 100, "images/row-3-col-3.png", 210, 210, "image");
 }
 
 var myGameArea = {
