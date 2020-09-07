@@ -12,8 +12,18 @@ img{
   width: 130px;
 }
 
+canvas{
+  position: absolute;
+  top: 200px;
+  right: 200px;
+}
+
 .main-display{
   height: 45rem;
+}
+
+.puzzleImage{
+  width: 300px;
 }
 
 .cust-iframe{
